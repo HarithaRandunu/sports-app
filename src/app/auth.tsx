@@ -14,7 +14,6 @@ import { Toast } from "react-native-toast-notifications";
 import { useAuth } from "../providers/auth-provider";
 import { Redirect } from "expo-router";
 import React from "react";
-
 const authSchema = zod.object({
   email: zod.string().email({ message: "Invalid email address" }),
   password: zod
@@ -65,9 +64,7 @@ export default function Auth() {
 
   return (
     <ImageBackground
-      source={{
-        uri: "https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      }}
+      source={require("../../assets/backgroundLoginImage.jpg")}
       style={styles.backgroundImage}
     >
       <View style={styles.overlay} />
