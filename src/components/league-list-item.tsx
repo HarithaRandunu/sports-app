@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
     resizeMode: "cover",
   },
   thumbImageContent: {
-    borderRadius: "50%",
+    borderRadius: 50,
     width: 80,
     height: 80,
     position: "absolute",
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   thumbImage: {
     width: "100%",
     height: "100%",
-    borderRadius: "50%",
+    borderRadius: 50,
     resizeMode: "cover",
   },
   itemTextContainer: {

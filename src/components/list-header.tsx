@@ -231,7 +231,7 @@ const styles = StyleSheet.create({
     width: 10,
     height: 10,
     margin: 5,
-    borderRadius: "50%",
+    borderRadius: 50,
     backgroundColor: "rgba(0, 0, 0, 0.75)",
   },
   selectedDot: {
